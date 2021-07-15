@@ -3,6 +3,8 @@ import PropTypes from 'prop-types';
 import './Movies.css';
 
 function Movie({ id, year, title, summary, poster, genres }) {
+  const newchange = 'for testing commits';
+
   return (
     <div className="movie">
       <img src={poster} alt={title} title={title} />

@@ -4,13 +4,10 @@ import Movie from './Movies';
 import './App.css';
 
 class App extends React.Component {
-  let newvar; 
-  
   state = {
     isLoading: true,
     movies: [],
   };
-  
 
   getMovies = async () => {
     const {
